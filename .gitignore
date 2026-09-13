@@ -1,0 +1,5 @@
+shots/
+creatives/
+deploy.py
+_repo.json
+_*.py
