@@ -51,6 +51,7 @@
           alert('Nomor WhatsApp Kartona belum diisi di js/config.js.');
           return;
         }
+        track('Contact', { funnel: kind, cta_text: btn.textContent.trim() }, true);
         track('WhatsAppClick', { funnel: kind, cta_text: btn.textContent.trim() });
       });
     });
